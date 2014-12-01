@@ -1,0 +1,23 @@
+{
+  "name": "brackets-test",
+  "version": "0.0.1",
+  "description": "Brackets Test",
+  "main": "test.js",
+  "dependencies": {},
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-jslint": "~1.1.12"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/boldt/brackets-test.git"
+  },
+  "keywords": [
+    "Brackets"
+  ],
+  "author": "Dennis Boldt",
+  "bugs": {
+    "url": "https://github.com/boldt/brackets-test/issues"
+  }
+}

@@ -1,0 +1,12 @@
+{
+    "app": {
+        "src": [
+            "js/**/*.js"
+        ],
+        "directives": {
+            "plusplus": true,
+            "predef": [
+            ]
+        }
+    }
+}
