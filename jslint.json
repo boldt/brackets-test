@@ -1,11 +1,13 @@
 {
     "app": {
         "src": [
+			"Gruntfile.js",
             "js/**/*.js"
         ],
         "directives": {
             "plusplus": true,
-            "predef": ["console"]
+			"devel" : true,
+            "predef": ["module"]
         }
     }
 }
