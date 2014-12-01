@@ -5,8 +5,7 @@
         ],
         "directives": {
             "plusplus": true,
-            "predef": [
-            ]
+            "predef": ["console"]
         }
     }
 }
