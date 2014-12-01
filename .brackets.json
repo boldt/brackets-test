@@ -1,7 +1,12 @@
 {
+    "styleActiveLine": true,
+    "showLineNumbers": true,
+    "linting.enabled": true,
+    "tabSize": 4,
+    "spaceUnits": 4,
     "jslint.options" : {
-		"plusplus" : true,
-		"devel" : true,
-		"predef" : ["module"]
+        "plusplus" : true,
+        "devel" : true,
+        "predef" : ["module"]
     }
 }
