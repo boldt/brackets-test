@@ -1,7 +1,5 @@
-/*global console */
-
 (function () {
-    
+
     "use strict";
 
     function test() {
@@ -12,5 +10,5 @@
     }
 
     test();
-    
+
 }());
