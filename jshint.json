@@ -1,3 +1,4 @@
 {
+    "jshintrc" : ".jshintrc",
     "all": ["js/**/*.js"]
 }
