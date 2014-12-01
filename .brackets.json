@@ -1,5 +1,6 @@
 {
     "jslint.options" : {
-        "plusplus" : true,
+		"plusplus" : true,
+		"predef" : ["console"]
     }
 }
