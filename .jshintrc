@@ -1,3 +1,4 @@
 {
-    "plusplus": false
+    "jshintrc" : ".jshintrc",
+    "plusplus" : true
 }
