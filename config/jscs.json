@@ -1,0 +1,9 @@
+{
+    "src": [
+        "Gruntfile.js",
+        "js/**/*.js"
+    ],
+    "options": {
+        "config": "config/crockford.json"
+    }
+}

@@ -3,17 +3,9 @@ module.exports = function (grunt) {
 
     grunt.initConfig({
         pkg: grunt.file.readJSON('package.json'),
-        jshint: grunt.file.readJSON('jshint.json'),
-        jslint: grunt.file.readJSON('jslint.json'),
-        jscs: {
-            src: [
-                "Gruntfile.js",
-                "js/**/*.js"
-            ],
-            options: {
-                config: 'crockford.json'
-            }
-        }
+        jshint: grunt.file.readJSON('config/jshint.json'),
+        jslint: grunt.file.readJSON('config/jslint.json'),
+        jscs: grunt.file.readJSON('config/jscs.json')
     });
 
     grunt.loadNpmTasks('grunt-jslint');
