@@ -9,14 +9,14 @@ Run `npm install` to install the dependencies from the `package.json`.
 
 Both json-files should be same configured.
 
-
 # Use Brackets
 
 Import project in Brackets and open `Gruntfile.js` and `js/test.js`; no errors are shown.
 
 # Use grunt
 
-Call `grunt jslint` in the root of the project.
+Call `grunt` in the root of the project. The following tasks are executed by default:
 
-* Brackets and `grunt jslint` are returning the same result
-
+* `grunt jslint`
+* `grunt jshint`
+* `grunt jscs`

@@ -7,7 +7,6 @@
     "jslint.options" : {
         "plusplus" : true,
         "devel" : true,
-		"vars" : true,
         "predef" : ["module"]
     }
 }
